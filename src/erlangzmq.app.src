@@ -16,8 +16,8 @@
 %% along with erlangzmq.  If not, see <http://www.gnu.org/licenses/>
 
 {application, erlangzmq,
- [{description, "Erlang implementation of ZeroMQ Transport Protocol (ZMTP)"},
-  {vsn, "1.1.1"},
+ [{description, "THIS PROJECT HAS BEEN RENAMED TO chumak."},
+  {vsn, "1.1.2"},
   {registered, []},
   {mod, { erlangzmq, []}},
   {applications,
@@ -29,5 +29,7 @@
 
   {maintainers, ["Andriy Drozdyuk"]},
   {licenses, ["AGPL", "Commercial"]},
-  {links, [{"Github", "https://github.com/chovencorp/erlangzmq"}]}
+  {links, [
+     {"Chumak", "https://github.com/chovencorp/chumak"},
+     {"Github", "https://github.com/chovencorp/erlangzmq"}]}
  ]}.
